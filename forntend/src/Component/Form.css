@@ -1,0 +1,94 @@
+.form{
+    /* border: 2px solid rgb(241, 224, 224); */
+    padding: 50px;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    color: blue;
+} 
+.form input{
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+}
+.form-select{
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+}
+.login{
+    height: 34.5rem;
+    background-image: url('../Image/dog7.jpg');
+    background-size: cover;
+    
+}
+.img1{
+    width: 26%;
+    height: 30%;
+    margin-top: 220px;
+    margin-left: 893px;
+}
+button{
+    width: 60%;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.animated-heading {
+    animation: fadeInUp 5s ease-in-out;
+    animation-iteration-count: infinite;
+    color: darkslateblue; 
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animated-text i {
+    animation: bounce 1s infinite;
+    display: inline-block; 
+    font-size: 30px;
+  }
+  .animated-text p{
+    color:rgb(250, 179, 157);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: -12px;
+    margin-left: -10px;
+  }
+  .icon{
+    animation: icon 1s infinite; 
+    display: inline-block; 
+    font-size: 30px;
+  }
+  @keyframes iconmove {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }

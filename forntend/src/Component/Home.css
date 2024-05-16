@@ -1,0 +1,89 @@
+.left-side-text {
+    background-image: url('../Image/home1.jpg'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    /* border: 2px solid red; */
+  }
+  .text-left{
+    background-color: rgb(247, 192, 192);
+    padding: 25px;
+    
+  }
+  
+  .heading {
+    font-size: 48px;
+    color: #edfec7;
+  }
+  .heading1{
+    color: rgb(2, 245, 225);
+  animation: move 5s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes move {
+    0% { 
+      transform: translateY(0); 
+      opacity: 0;
+    }
+    30% {
+      transform: translateX();
+      opacity: 0.3;
+    }
+    70% {
+       transform: translateX(100px);
+       opacity: 1;
+       }
+    100% { 
+      transform: translateY(0);
+      opacity: 1;
+     }
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .explore-button {
+    background-color: #0947d7;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #0737b3;
+  }
+  
+  /* Animation */
+  .explore-button:hover {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .btn{
+    background-color: rgb(255, 255, 26);
+  }
+  .gallery img{
+    width: 30%;
+    height: 25%;
+    gap: 5px;
+  }
+  .btn2{
+    width: 200px;
+    height: 35px;
+  }
+  .galry{
+    height: 80px;
+    background-color: pink;
+    padding: 20px;
+  }

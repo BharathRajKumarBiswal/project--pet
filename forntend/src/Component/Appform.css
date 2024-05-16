@@ -1,0 +1,10 @@
+input{
+    border: 1px solid rosybrown ;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn3{
+    width: 150px;
+    background-color: navajowhite;
+}

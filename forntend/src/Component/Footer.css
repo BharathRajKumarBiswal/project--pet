@@ -1,0 +1,35 @@
+.container1{
+   display: flex;
+    color: white;
+    background-color: rgb(100, 95, 95);
+    width: 100%;
+    height: 240px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.website-links{
+    display: grid;
+}
+.website-links a{
+    text-decoration: none;
+    color: white;
+}
+.website-links a:hover{
+    color: brown;
+}
+.image{
+    display: flex;
+}
+.social-icons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.social-icons a{
+    color: rgb(255, 243, 7);
+    margin: auto;
+    padding: auto;
+}
+.social-icons a:hover{
+    color: brown;
+}

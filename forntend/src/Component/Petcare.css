@@ -1,0 +1,21 @@
+.Nav-bar{
+    text-decoration: none;
+    background-color: yellow;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    color: black;
+}
+.option{
+    border: none;
+    background-color: yellow;
+    width: 10%;
+    height: 20px;
+}
+
+.home{
+    color: black;
+    text-decoration: none;
+}

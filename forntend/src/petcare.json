@@ -1,0 +1,44 @@
+{
+  "pet": [
+    {
+      "Customer-Name": "Raj",
+      "Pet-Name": "Snoopy",
+      "Breed": "Dog",
+      "Number": "97494883773",
+      "Password": "Raj@123",
+      "id": "c6f7"
+    },
+    {
+      "id": "18b2",
+      "name": "bharath",
+      "petName": "diggy",
+      "breed": "Cat",
+      "number": "9346613353",
+      "password": "123456"
+    },
+    {
+      "id": "e879",
+      "name": "helo",
+      "petName": "helo",
+      "breed": "Others",
+      "number": "6736",
+      "password": "6736"
+    },
+    {
+      "id": "2ab3",
+      "name": "govalu",
+      "petName": "bllw",
+      "breed": "Others",
+      "number": "2e2",
+      "password": "1234"
+    },
+    {
+      "id": "da76",
+      "name": "Adam",
+      "petName": "adam",
+      "breed": "Dog",
+      "number": "123",
+      "password": "123"
+    }
+  ]
+}
